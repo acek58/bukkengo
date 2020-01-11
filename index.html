@@ -1,21 +1,49 @@
-ndex.html
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="Content-Style-Type" content="text/css">
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-    <meta name="copyright" content="Copyright(C) 2017 y-okuda All Rights Reserved.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <meta name="keywords" content="うどん,讃岐,さぬき,香川,うどん屋,マップ,地図">
-    <meta name="description" content="香川、大阪にある讃岐うどんの有名店の場所がGoogle Map上で一目でわかる、特にスマホやタブレットで使い勝手のいい地図です。独自のランク付けとおすすめメニューの情報、おまけにラーメン店やB級グルメの情報も！">
-    <title>讃岐うどん店マップ</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<meta name="copyright" content="Copyright(C) 2017 y-okuda All Rights Reserved.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	<meta name="keywords" content="うどん,讃岐,さぬき,香川,うどん屋,マップ,地図">
+	<meta name="description" content="香川、大阪にある讃岐うどんの有名店の場所がGoogle Map上で一目でわかる、特にスマホやタブレットで使い勝手のいい地図です。独自のランク付けとおすすめメニューの情報、おまけにラーメン店やB級グルメの情報も！">
+	<style type="text/css">
+		html{
+			height:100%;
+		}
+		body{
+			height:100%;
+			padding:0;
+			margin:0;
+			background-color: #888888;
+		}
+		#main{
+			height:100%;
+			min-height:100%;
+			margin-top:-46px;
+			margin-bottom:2px;
+		}
+		#footer{
+			height:40px;
+			display:flex;
+			justify-content:center;
+		  align-items:center;
+			margin-top:0px;
+			margin-bottom:0px;
+		}
+	</style>
+	<title>讃岐うどん店マップ</title>
 </head>
 <body>
-    <div id="main">
-        <!-- #Google MyMap 🔽🔽🔽 ここにコピーしたiframeタグを1行ペーストするだけです 🔽🔽🔽-->
-        <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1Z5kKVkHxgkcDBfxhzBLX93q0yd4" width="640" height="480"></iframe>
-    </div>
-    <div id="footer">
-    </div>
+	<div id="main">
+		<!-- #Google MyMap -->
+		<iframe src="https://www.google.com/maps/d/u/1/embed?mid=1Z5kKVkHxgkcDBfxhzBLX93q0yd4" frameborder="0" scrolling="no" width="100%" height="100%"></iframe>
+	</div>
+	<div id="footer">
+		<!-- #Link to Data -->
+		<a href="https://docs.google.com/spreadsheets/d/1tdp75fUNEcHHlAGS04swMHwlgUD6EUwqlqwA1PTcMtU/edit?usp=sharing" target="_blank">
+			<img src="./udon_kitune01.png" height="14"><font size="2">各店舗のリスト、HPへのリンクはこちら</font><img src="./udon_kitune01.png" height="14">
+		</a>
+	</div>
 </body>
 </html>
